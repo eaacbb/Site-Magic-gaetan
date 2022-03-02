@@ -54,7 +54,7 @@ table {
 }
 .card {
   width: 350px;
-  height: 670px;
+  height: auto;
   margin: 20px;
   background-color: black;
   padding: 15px;
@@ -169,11 +169,11 @@ table {
 
 .card .cardfond .cardcontent .cardtype h2 {
   font-weight: 700;
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 .card .cardfond .cardcontent .cardtype i {
-  margin-left: 20px;
+  margin-left: 45px;
   margin-right: 5px;
   padding: 1px;
   color: red;
@@ -188,16 +188,16 @@ table {
 .card .cardfond .cardcontent .cardeffect .effect {
   font-weight: 700;
   padding-bottom: 1.5px;
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 .card .cardfond .cardcontent .cardeffect .effect2 {
-  font-size: 0.9em;
+  font-size: 0.8em;
   padding-bottom: 5px;
 }
 
 .card .cardfond .cardcontent .cardeffect .note {
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-style: italic;
 }
 
