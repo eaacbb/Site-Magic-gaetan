@@ -4,11 +4,12 @@ $ave: 'Average', serif;
 
 .card{
     width: 350px;
-    height: 700px;
+    height: 670px;
     margin: 5%;
     background-color: rgb(0, 0, 0);
     padding: 15px;
     border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
     .cardfond{
         background-image: url(Images/background.jpg);
         background-repeat: repeat;
@@ -100,8 +101,50 @@ $ave: 'Average', serif;
                 }
                 .note{
                     font-size: 0.8em;
+                    font-style: italic;
                 }
             }
+        }
+        .cardid{
+            display: flex;
+            flex-direction: column;
+            .artist{
+                color: white;
+                padding: 5px;
+                font-size: 0.8em;
+                i{
+                    margin-right: 10px;
+                }
+            }
+            .copyright{
+                color: white;
+                padding: 0 5px;
+                font-size: 0.5em;
+                .fa-trademark{
+                    margin-right: 4px;
+                }
+                .fa-copyright{
+                    margin: 0 5px;
+                }
+            }
+        }
+        .cardpower{
+            position: absolute;
+            top: 623px;
+            left: 303px;
+            width: 50px;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            border: 1.5px solid black;
+            background-image: url(Images/background2.jpg);
+            background-repeat: repeat;
+            border-radius: 17px;
+            box-shadow: 2px 2px 5px black;
+            font-weight: 700;
+            font-size: 1.1em;
         }
     }
 }

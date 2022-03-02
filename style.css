@@ -54,11 +54,13 @@ table {
 }
 .card {
   width: 350px;
-  height: 700px;
+  height: 670px;
   margin: 5%;
   background-color: black;
   padding: 15px;
   border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 10px black;
+          box-shadow: 5px 5px 10px black;
 }
 
 .card .cardfond {
@@ -196,5 +198,67 @@ table {
 
 .card .cardfond .cardcontent .cardeffect .note {
   font-size: 0.8em;
+  font-style: italic;
+}
+
+.card .cardfond .cardid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card .cardfond .cardid .artist {
+  color: white;
+  padding: 5px;
+  font-size: 0.8em;
+}
+
+.card .cardfond .cardid .artist i {
+  margin-right: 10px;
+}
+
+.card .cardfond .cardid .copyright {
+  color: white;
+  padding: 0 5px;
+  font-size: 0.5em;
+}
+
+.card .cardfond .cardid .copyright .fa-trademark {
+  margin-right: 4px;
+}
+
+.card .cardfond .cardid .copyright .fa-copyright {
+  margin: 0 5px;
+}
+
+.card .cardfond .cardpower {
+  position: absolute;
+  top: 623px;
+  left: 303px;
+  width: 50px;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1.5px solid black;
+  background-image: url(Images/background2.jpg);
+  background-repeat: repeat;
+  border-radius: 17px;
+  -webkit-box-shadow: 2px 2px 5px black;
+          box-shadow: 2px 2px 5px black;
+  font-weight: 700;
+  font-size: 1.1em;
 }
 /*# sourceMappingURL=style.css.map */
